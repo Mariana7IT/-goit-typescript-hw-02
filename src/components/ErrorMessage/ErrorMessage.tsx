@@ -1,13 +1,13 @@
 import React from "react";
-import css from "./ErrorMessage.module.css";
+import s from "./ErrorMessage.module.css";
 
 interface ErrorMessageProps {
   message: string;
 }
 
 const ErrorMessage: React.FC<ErrorMessageProps> = ({ message }) => (
-  <div className={css.div}>
-    <p className={css.p}>{message}</p>
+  <div className={s.div}>
+    <p className={s.p}>{message}</p>
   </div>
 );
 
